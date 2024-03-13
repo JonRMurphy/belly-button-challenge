@@ -1,3 +1,5 @@
+url = 'https://static.bc-edx.com/data/dl-1-2/m14/lms/starter/samples.json'
+
 // Fetch Json and log it
 d3.json(url).then(function(data) {
     console.log(data);
